@@ -43,7 +43,7 @@ app.use(session({
 
 //Templating engine
 app.use(expressLayout)
-app.set('layout', layoutPath)
+app.set('layout', 'layouts/main')
 app.set('view engine', 'ejs')
 
 //Global varibles
