@@ -1,22 +1,33 @@
 <!DOCTYPE html>
 <html lang='en'>
-<head>
-    <meta charset='UTF-8'>
-    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
-    <title>Admin</title>
-    <link rel='stylesheet' href='/css/stylesheet.css'>
-    <script defer type='text/javascript' src='/js/script.js'></script>
-</head>
-<body>
-    <%- include('../partials/search.ejs') %>
-    <div class='container'>
-        
-        <%- include('../partials/header_admin.ejs') %>
-        <main class='main'>
-            <%- body %>
-        </main>
-        <%- include('../partials/footer.ejs') %>
 
-    </div>
-</body>
+    <head>
+        <meta charset='UTF-8'>
+        <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+        <!-- <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"> -->
+        <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+        <!-- <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png"> -->
+        <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+        <!-- <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png"> -->
+        <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon/favicon-16x16.png">
+        <!-- <link rel="manifest" href="/site.webmanifest"> -->
+        <link rel="manifest" href="/img/favicon/site.webmanifest">
+        <title>Admin</title>
+        <link rel='stylesheet' href='/css/stylesheet.css'>
+        <script defer type='text/javascript' src='/js/script.js'></script>
+    </head>
+
+    <body>
+        <%- include('../partials/search.ejs') %>
+            <div class='container'>
+
+                <%- include('../partials/header_admin.ejs') %>
+                    <main class='main'>
+                        <%- body %>
+                    </main>
+                    <%- include('../partials/footer.ejs') %>
+
+            </div>
+    </body>
+
 </html>
