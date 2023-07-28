@@ -23,7 +23,6 @@ connectDB()
 
 //Paths
 const staticPath = path.join(__dirname, 'public')
-const layoutPath = path.join(__dirname, 'views/layouts/main')
 
 //Middleware
 app.use(express.static(staticPath))
