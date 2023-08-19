@@ -16,6 +16,7 @@ const isActiveRoute = require('./server/helpers/routeHelpers')
 const mainRoutes = require('./server/routes/main')
 const adminRoutes = require('./server/routes/admin')
 
+//Port number
 const port = process.env.PORT || 300
 
 //Connect to DB
